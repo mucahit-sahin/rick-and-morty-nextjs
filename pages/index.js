@@ -2,10 +2,14 @@ import Layout from "../components/Layout";
 import fetch from "isomorphic-unfetch";
 import Link from "next/link";
 import slug from "slug";
+import Head from "next/head";
 
 export default function Home({ characters }) {
   return (
     <Layout>
+      <Head>
+        <title>Characters</title>
+      </Head>
       <div className="characters">
         <h1>Rick and Morty</h1>
         <ul className="characterList">

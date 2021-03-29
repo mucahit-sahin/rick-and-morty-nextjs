@@ -13,7 +13,10 @@
 
 .characterList li {
   list-style: none;
-  background-image: linear-gradient(rgb(54, 155, 17), rgb(99, 223, 39));
+  background-image: linear-gradient(
+    rgb(54, 155, 17, 0.6),
+    rgb(99, 223, 39, 0.6)
+  );
   padding: 0.5rem;
   border-radius: 10px;
   text-align: center;

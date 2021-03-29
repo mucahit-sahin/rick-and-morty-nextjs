@@ -4,6 +4,9 @@ import Layout from "../components/Layout";
 const episodes = ({ episodes }) => {
   return (
     <Layout>
+      <Head>
+        <title>Episodes</title>
+      </Head>
       <div className="episodes">
         <h1>Episodes</h1>
         <table>

@@ -4,6 +4,9 @@ import Layout from "../components/Layout";
 const locations = ({ locations }) => {
   return (
     <Layout>
+      <Head>
+        <title>Locations</title>
+      </Head>
       <div className="locations">
         <h1>Location</h1>
         <table>
