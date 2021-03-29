@@ -1,5 +1,6 @@
 import fetch from "isomorphic-unfetch";
 import Layout from "../components/Layout";
+import Head from "next/head";
 
 const episodes = ({ episodes }) => {
   return (
