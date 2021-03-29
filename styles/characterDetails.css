@@ -1,0 +1,12 @@
+.characterDetailsCard {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(
+    rgb(54, 155, 17, 0.6),
+    rgb(99, 223, 39, 0.6)
+  );
+}
+.characterDetailsCard h2,
+.characterDetailsCard h3 {
+  color: white;
+}

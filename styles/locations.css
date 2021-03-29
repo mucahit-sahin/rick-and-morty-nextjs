@@ -1,0 +1,27 @@
+.locations {
+  display: flex;
+  flex-direction: column;
+}
+
+.locations h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.locations table {
+  border-radius: 1rem;
+  padding: 0.5rem;
+  color: white;
+  background-image: linear-gradient(
+    rgb(54, 155, 17, 0.6),
+    rgb(99, 223, 39, 0.6)
+  );
+}
+.locations table th {
+  text-decoration: underline;
+}
+.locations table td {
+  padding: 5px;
+  text-align: center;
+}
